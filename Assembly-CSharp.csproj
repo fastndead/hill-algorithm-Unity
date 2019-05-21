@@ -3,6 +3,9 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_rider_editor_plugin</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_rider_editor_plugin</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -10,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{48F20BA8-2F11-44F1-7169-20DB49D14E94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,22 +57,108 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DiamondSquare.cs" />
     <Compile Include="Assets\MeshGenerator.cs" />
+    <Compile Include="Assets\PerlinGenerator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Behavior.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Configuration.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Enums.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Contour.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Edge.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\ExtensionMethods.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\IEdge.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\IPolygon.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\ISegment.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\ITriangle.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Point.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Polygon.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Rectangle.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\RegionPointer.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Segment.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Geometry\Vertex.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\DebugWriter.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\FileProcessor.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\IFileFormat.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\IMeshFormat.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\InputTriangle.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\IPolygonFormat.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\TriangleFormat.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\TriangleReader.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IO\TriangleWriter.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\IPredicates.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Log.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Logging\ILog.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Logging\ILogItem.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Logging\LogItem.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Mesh.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Algorithm\Dwyer.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Algorithm\Incremental.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Algorithm\SweepLine.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\ConstraintMesher.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\ConstraintOptions.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Converter.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Data\BadSubseg.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Data\BadTriangle.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Data\BadTriQueue.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\GenericMesher.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\IConstraintMesher.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\IMesh.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\IQualityMesher.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Iterators\EdgeIterator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Iterators\RegionIterator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\Iterators\VertexCirculator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\ITriangulator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\QualityMesher.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Meshing\QualityOptions.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\MeshValidator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\NewLocation.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\RobustPredicates.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Smoothing\ISmoother.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Smoothing\SimpleSmoother.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Smoothing\VoronoiFactory.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\AdjacencyMatrix.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\CuthillMcKee.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\Interpolation.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\IntersectionHelper.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\PolygonValidator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\QualityMeasure.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\Statistic.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\TriangleQuadTree.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Tools\VertexSorter.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\DCEL\DcelMesh.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\DCEL\Face.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\DCEL\HalfEdge.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\DCEL\Vertex.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\Osub.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\Otri.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\SubSegment.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Topology\Triangle.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\TriangleLocator.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\TrianglePool.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\TriangleSampler.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\BoundedVoronoi.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\DefaultVoronoiFactory.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\IVoronoiFactory.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\Legacy\BoundedVoronoiLegacy.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\Legacy\IVoronoi.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\Legacy\SimpleVoronoi.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\Legacy\VoronoiRegion.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\StandardVoronoi.cs" />
+    <Compile Include="Assets\TriangleDotNet\Triangle\Voronoi\VoronoiBase.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -276,13 +365,13 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/ASMANandNASTYA/Desktop/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/ASMANandNASTYA/Projects/perlin-noise-algorithm-unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

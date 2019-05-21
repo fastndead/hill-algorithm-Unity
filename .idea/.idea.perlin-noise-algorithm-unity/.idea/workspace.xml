@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c7f2814-c24e-4f37-a059-a1b00d5f2ea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoise.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoise.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4f3fb5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4f3fb5-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/3af8bc-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/3af8bc-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/20/20c1f067d28294a03a7a08c9d3ce2987" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/20/20c1f067d28294a03a7a08c9d3ce2987" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/20/20c1f067d28294a03a7a08c9d3ce2987.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/20/20c1f067d28294a03a7a08c9d3ce2987.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/31/31b898eac115648e3bada314c4a83b12" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/31/31b898eac115648e3bada314c4a83b12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/37/374fcad46a46c42618b1efa92a7a62af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/37/374fcad46a46c42618b1efa92a7a62af.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/PerlinGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+              <folding>
+                <marker date="1558474707736" expanded="true" signature="6:193" ph="..." />
+                <marker date="1558474707736" expanded="true" signature="239:5128" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="588:625" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="651:3947" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="1118:2037" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="1178:2026" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="1485:2012" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="2071:2734" ph="/* for (int v = 0; v &lt; mVerts.Length; v++) ... */" />
+                <marker date="1558474707736" expanded="true" signature="3181:3659" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="3267:3559" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="3365:3509" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="4013:5126" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="5151:8932" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="5208:5236" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="5329:5692" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="5497:5661" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="5740:6715" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="6826:6911" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="6873:6908" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="6966:8100" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="8128:8191" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="8261:8508" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="8548:8840" ph="{...}" />
+                <marker date="1558474707736" expanded="true" signature="8565:8765" ph="/* Fade function as defined by Ken Perlin.  This eases coordinate values ... */" />
+                <marker date="1558474707736" expanded="true" signature="8900:8930" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PerlinGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PerlinNoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerlinGenerator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.perlin-noise-algorithm-unity/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.perlin-noise-algorithm-unity/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c7f2814-c24e-4f37-a059-a1b00d5f2ea7" name="Default Changelist" comment="" />
+      <created>1558341932676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558341932676</updated>
+      <workItem from="1558341942719" duration="1704000" />
+      <workItem from="1558431396186" duration="4757000" />
+      <workItem from="1558473514793" duration="1904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8365000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/PerlinNoise.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PerlinGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <marker date="1558474707736" expanded="true" signature="6:193" ph="..." />
+            <marker date="1558474707736" expanded="true" signature="239:5128" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="588:625" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="651:3947" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="1118:2037" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="1178:2026" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="1485:2012" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="2071:2734" ph="/* for (int v = 0; v &lt; mVerts.Length; v++) ... */" />
+            <marker date="1558474707736" expanded="true" signature="3181:3659" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="3267:3559" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="3365:3509" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="4013:5126" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="5151:8932" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="5208:5236" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="5329:5692" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="5497:5661" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="5740:6715" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="6826:6911" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="6873:6908" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="6966:8100" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="8128:8191" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="8261:8508" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="8548:8840" ph="{...}" />
+            <marker date="1558474707736" expanded="true" signature="8565:8765" ph="/* Fade function as defined by Ken Perlin.  This eases coordinate values ... */" />
+            <marker date="1558474707736" expanded="true" signature="8900:8930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
